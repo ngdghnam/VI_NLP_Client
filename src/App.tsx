@@ -1,13 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+// import Eclipse from "./components/Eclipse";
+import Welcome from "./pages/Welcome";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>Hello World</div>
-    </>
+    <div className="background-color text-white">
+      <Welcome></Welcome>
+    </div>
   );
 }
 

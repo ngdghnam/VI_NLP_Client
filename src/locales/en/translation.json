@@ -1,1 +1,10 @@
-{}
+{
+  "title": "virtual idols times",
+  "searchBar": "Search...",
+  "selectedLanguage": "Languages",
+  "languages": {
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "korean": "Korean"
+  }
+}

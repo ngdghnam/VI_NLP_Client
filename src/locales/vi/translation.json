@@ -1,1 +1,10 @@
-{}
+{
+  "title": "가상 아이돌 시대",
+  "searchBar": "Tìm kiếm...",
+  "selectedLanguage": "Ngôn ngữ",
+  "languages": {
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh",
+    "korean": "Tiếng Hàn"
+  }
+}

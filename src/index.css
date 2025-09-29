@@ -118,3 +118,126 @@
     @apply bg-background text-foreground;
   }
 }
+
+.background-color {
+  background-color: #0a0a0a;
+}
+
+.background-header {
+  position: relative;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.66);
+}
+
+.background-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(201, 201, 201, 0.8) 0%,
+    rgba(196, 196, 196, 0.1) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: inherit;
+  opacity: 0.3;
+}
+
+.no-border-selection {
+  border: none !important;
+}
+
+.hero-header-text {
+  background: #f24e1e;
+  background: linear-gradient(to bottom, #f24e1e 0%, #a559f7 95%, #a259ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-circle-1 {
+  position: relative;
+}
+
+.bg-circle-1::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* full circle */
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right bottom,
+    #ec4f2f,
+    #fa2f5c,
+    #f61f8b,
+    #de38bc,
+    #ab58e8
+  );
+  opacity: 0.33;
+  filter: blur(100px);
+}
+.try-now-btn {
+  background-color: #ed4f2d !important;
+  color: white !important;
+  border-radius: 27px !important;
+  width: 222px;
+  height: 43px;
+}
+
+.try-now-btn:hover {
+  cursor: pointer;
+}
+
+.background-introduce-card {
+  /* position: relative; */
+  overflow: hidden; /* tránh nền tràn */
+}
+
+.background-introduce-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #c9c9c9 0%, #c4c4c4 100%);
+  opacity: 0.3; /* 👈 áp dụng mờ ở đây */
+  z-index: -1; /* 👈 nằm sau text */
+}
+
+.background-ticket {
+  position: relative; /* cần cho ::before bám */
+  overflow: hidden; /* tránh nền bị tràn ngoài bo góc */
+}
+
+.background-ticket::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit; /* bo tròn giống thẻ cha */
+  background: linear-gradient(
+    135deg,
+    rgba(201, 201, 201, 0.8) 0%,
+    rgba(196, 196, 196, 0.1) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: inherit;
+  opacity: 0.3;
+}
+
+.background-contact {
+  position: relative;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.66);
+  overflow: hidden;
+}
+
+.background-contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(201, 201, 201, 0.8) 0%,
+    rgba(196, 196, 196, 0.1) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: inherit;
+  opacity: 0.3;
+}

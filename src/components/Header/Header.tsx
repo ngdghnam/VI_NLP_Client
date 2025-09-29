@@ -1,28 +1,28 @@
-import React from "react";
 import { Input } from "../ui/input";
-import { Select } from "react-day-picker";
 import {
+  Select,
   SelectContent,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
+import "../../index.css";
 
 const Header = () => {
   return (
-    <div className="w-100 flex">
-      <h1 className="uppercase">virtual idols times</h1>
-      <Input />
+    <div className="w-full p-4 h-[105.66px] flex text-white justify-between gap-1.5 items-center background-header">
+      <h1 className="uppercase font-extrabold text-xl text-[#F3F3F3] z-100">
+        virtual idols times
+      </h1>
+      <Input className="w-[946px] h-[48px] z-100"></Input>
       <Select>
-        <SelectTrigger>
-          <SelectValue placeholder="EN"></SelectValue>
+        <SelectTrigger className="z-100">
+          <SelectValue placeholder="Langs"></SelectValue>
         </SelectTrigger>
-        <SelectContent>
-          <SelectLabel>Languages</SelectLabel>
-          <SelectItem value="">EN</SelectItem>
-          <SelectItem value="">VI</SelectItem>
-          <SelectItem value="">KR</SelectItem>
+        <SelectContent className="text-xl">
+          <SelectItem value="vi">Vietnam</SelectItem>
+          <SelectItem value="en">English</SelectItem>
+          <SelectItem value="kr">Korea</SelectItem>
         </SelectContent>
       </Select>
     </div>

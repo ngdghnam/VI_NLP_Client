@@ -1,1 +1,10 @@
-{}
+{
+  "title": "가상 아이돌 시대",
+  "searchBar": "검색...",
+  "selectedLanguage": "언어",
+  "languages": {
+    "vietnamese": "베트남어",
+    "english": "영어",
+    "korean": "한국어"
+  }
+}
