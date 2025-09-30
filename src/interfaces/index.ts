@@ -26,7 +26,6 @@ export interface circle {
 export interface contact {
   className?: string;
   style?: React.CSSProperties;
-  children: React.ReactNode;
 }
 
 export interface ticket {

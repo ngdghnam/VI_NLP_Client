@@ -241,3 +241,40 @@
   border-bottom: inherit;
   opacity: 0.3;
 }
+
+.contact-input {
+  background-color: rgba(223, 218, 218, 0.57);
+  border: none !important;
+}
+
+.submit-btn {
+  background: #d2537a;
+  background: linear-gradient(
+    133deg,
+    rgba(210, 83, 122, 1) 0%,
+    rgba(237, 79, 45, 1) 100%
+  );
+  border-radius: 27px;
+  color: white;
+  width: 185px;
+  height: 43px;
+}
+
+.contact-info {
+  border-radius: 27px 27px 0px 27px;
+  background: rgba(201, 201, 201, 0.8);
+  background: linear-gradient(
+    45deg,
+    rgba(201, 201, 201, 0.8) 0%,
+    rgba(196, 196, 196, 0.1) 100%
+  );
+}
+
+.contact-box {
+  background: #f24e1e;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 78, 30, 1) 0%,
+    rgba(162, 89, 255, 1) 100%
+  );
+}
