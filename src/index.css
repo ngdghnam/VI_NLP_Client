@@ -278,3 +278,15 @@
     rgba(162, 89, 255, 1) 100%
   );
 }
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  clip-path: circle(50%);
+  background-color: linear-gradient(
+    180deg,
+    rgba(242, 78, 30, 1) 0%,
+    rgba(162, 89, 255, 1) 100%
+  );
+}

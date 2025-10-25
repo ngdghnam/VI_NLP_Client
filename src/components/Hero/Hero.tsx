@@ -3,11 +3,11 @@ import Circle from "../Circle";
 import Ticket from "../Ticket/Ticket";
 import { Button } from "../ui/button";
 import vectaryTexture from "@/assets/vectaryTexture.png";
-import insight2 from "@/assets/insight2.png";
-import discoConnectSpotlight from "@/assets/discoConcertSpotlight.png";
-import stage from "@/assets/stage.png";
-import stage2 from "@/assets/stage2.png";
-import Contact from "../Contact/Contact";
+// import insight2 from "@/assets/insight2.png";
+// import discoConnectSpotlight from "@/assets/discoConcertSpotlight.png";
+// import stage from "@/assets/stage.png";
+// import stage2 from "@/assets/stage2.png";
+// import Contact from "../Contact/Contact";
 
 const Hero = () => {
   return (

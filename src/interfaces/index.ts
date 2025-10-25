@@ -54,3 +54,10 @@ export interface ticket {
   afterBgImageURL?: string;
   classNameForDescription?: string;
 }
+
+export interface analysisCard {
+  className?: string;
+  // data: {};
+}
+
+export interface overallCard {}
